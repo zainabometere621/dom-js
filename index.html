@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <style type="text/css">
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #click-me{
+            border: 3px solid black;
+            border-radius: 20px;
+            padding: 1em;
+            font-weight: bold;
+            width: 150px;
+            background-color: white;
+
+        }
+        #click-me:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        #click-me:active{
+            opacity: 0.5;
+
+        }
+        #color-name{
+            color: black;
+        }
+
+
+     
+    </style>
+</head>
+<body id ="my_website_body">
+ <h5 id="color-name">No color selected</h5>   
+<button id="click-me">Click Me!</button>    
+   
+    <script type="text/javascript" src="dom.js"></script>
+
+
+</body>
+</html> 
